@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B1845A1D4A53E8007273F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B184581D4A53E8007273F7 /* Main.storyboard */; };
 		98FE6BB71D44E5C900772B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE6BB61D44E5C900772B43 /* AppDelegate.swift */; };
 		98FE6BB91D44E5C900772B43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE6BB81D44E5C900772B43 /* ViewController.swift */; };
-		98FE6BBC1D44E5C900772B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FE6BBA1D44E5C900772B43 /* Main.storyboard */; };
 		98FE6BBF1D44E5C900772B43 /* Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98FE6BBD1D44E5C900772B43 /* Calculator.xcdatamodeld */; };
 		98FE6BC11D44E5C900772B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FE6BC01D44E5C900772B43 /* Assets.xcassets */; };
 		98FE6BC41D44E5C900772B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FE6BC21D44E5C900772B43 /* LaunchScreen.storyboard */; };
@@ -35,10 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98B184591D4A53E8007273F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98FE6BB31D44E5C900772B43 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FE6BB61D44E5C900772B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98FE6BB81D44E5C900772B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		98FE6BBB1D44E5C900772B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98FE6BBE1D44E5C900772B43 /* Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculator.xcdatamodel; sourceTree = "<group>"; };
 		98FE6BC01D44E5C900772B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FE6BC31D44E5C900772B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				98FE6BB61D44E5C900772B43 /* AppDelegate.swift */,
 				98FE6BB81D44E5C900772B43 /* ViewController.swift */,
-				98FE6BBA1D44E5C900772B43 /* Main.storyboard */,
+				98B184581D4A53E8007273F7 /* Main.storyboard */,
 				98FE6BC01D44E5C900772B43 /* Assets.xcassets */,
 				98FE6BC21D44E5C900772B43 /* LaunchScreen.storyboard */,
 				98FE6BC51D44E5C900772B43 /* Info.plist */,
@@ -232,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B1845A1D4A53E8007273F7 /* Main.storyboard in Resources */,
 				98FE6BC41D44E5C900772B43 /* LaunchScreen.storyboard in Resources */,
 				98FE6BC11D44E5C900772B43 /* Assets.xcassets in Resources */,
-				98FE6BBC1D44E5C900772B43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +297,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		98FE6BBA1D44E5C900772B43 /* Main.storyboard */ = {
+		98B184581D4A53E8007273F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98FE6BBB1D44E5C900772B43 /* Base */,
+				98B184591D4A53E8007273F7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -488,6 +488,7 @@
 				98FE6BE01D44E5C900772B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98FE6BE11D44E5C900772B43 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				98FE6BE31D44E5C900772B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98FE6BE41D44E5C900772B43 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				98FE6BE61D44E5C900772B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
